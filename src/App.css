@@ -1,0 +1,22 @@
+/* CSS สำหรับจัดให้รูปภาพอยู่ตรงกลาง */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.App{
+    margin: 30px 70px;
+}
+
+h1{
+    margin: 20px;
+}
