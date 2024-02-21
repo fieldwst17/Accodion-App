@@ -6,7 +6,7 @@ import content from "./components/data/content";
 function App() {
   return (
     <div>
-      <img src={logo} alt="logo" className="w-200 h-200 block mx-auto p-10 mt-20"/>
+      <img src={logo} alt="logo" className="w-200 h-200 block mx-auto p-10 mt-5"/>
       <h1 className="text-3xl text-center text-red-600 font-bold m-10">Web Development Tools in 2023</h1>
       {content.map((content) => {
         return <Item key={content.id} {...content} />
